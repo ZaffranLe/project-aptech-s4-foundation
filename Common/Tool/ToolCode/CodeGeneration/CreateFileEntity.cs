@@ -109,7 +109,7 @@ namespace CommonicationMemory.CodeGeneration
                 //Tạo hàm lấy khóa nếu có nhiều keys
                 if (listColums.Count > 1)
                 {
-                    stringBuild.Insert(0, "using QuantEdge.Entity.Keys;\r\n");
+                    stringBuild.Insert(0, "using ElectricShop.Entity.Keys;\r\n");
 
                     stringBuild.AppendLine("\t\tpublic " + className + "Keys Get" + className + "Keys()");
                     stringBuild.AppendLine("\t\t{");

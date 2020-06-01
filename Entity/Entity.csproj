@@ -96,29 +96,12 @@
     <Compile Include="Entities\UserInfo.cs" />
     <Compile Include="Entities\UserLogin.cs" />
     <Compile Include="Entities\UserRole.cs" />
-    <Compile Include="Entities\YdspLme.cs" />
-    <Compile Include="Keys\EQ_AssignedSymbolKeys.cs" />
+    <Compile Include="Keys\RolePermissionKeys.cs" />
+    <Compile Include="Keys\UserRoleKeys.cs" />
     <Compile Include="Keys\EQ_FeeKeys.cs" />
-    <Compile Include="Keys\EQ_FXRateKeys.cs" />
-    <Compile Include="Keys\EQ_HoldingKeys.cs" />
-    <Compile Include="Keys\EQ_OrderMappingKeys.cs" />
-    <Compile Include="Keys\YdspLmeKeys.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="EntityCommand.cs" />
     <Compile Include="EntityQuery.cs" />
-    <Compile Include="Keys\BaseSymbolMappingKeys.cs" />
-    <Compile Include="Keys\ContractNoticeDateKeys.cs" />
-    <Compile Include="Keys\SymbolSettlementPriceDailyKeys.cs" />
-    <Compile Include="Keys\FeeLevelTypeKeys.cs" />
-    <Compile Include="Keys\HolidayExceptionKeys.cs" />
-    <Compile Include="Keys\LinkedTransactionKeys.cs" />
-    <Compile Include="Keys\MarginManualStatusKeys.cs" />
-    <Compile Include="Keys\MemberSymbolMappingKeys.cs" />
-    <Compile Include="Keys\OpenPositionDetailKeys.cs" />
-    <Compile Include="Keys\OpenPositionKeys.cs" />
-    <Compile Include="Keys\RoleGroupRefKeys.cs" />
-    <Compile Include="Keys\SymbolMappingKeys.cs" />
-    <Compile Include="Keys\UserRoleGroupKeys.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
