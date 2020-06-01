@@ -81,6 +81,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseEntity.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Image.cs" />
+    <Compile Include="Entities\ImportReceipt.cs" />
+    <Compile Include="Entities\Manufacturer.cs" />
+    <Compile Include="Entities\OrderDetail.cs" />
+    <Compile Include="Entities\Permission.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\ProductType.cs" />
+    <Compile Include="Entities\Property.cs" />
+    <Compile Include="Entities\Provider.cs" />
+    <Compile Include="Entities\Role.cs" />
+    <Compile Include="Entities\RolePermission.cs" />
+    <Compile Include="Entities\UserInfo.cs" />
+    <Compile Include="Entities\UserLogin.cs" />
+    <Compile Include="Entities\UserRole.cs" />
     <Compile Include="Entities\YdspLme.cs" />
     <Compile Include="Keys\EQ_AssignedSymbolKeys.cs" />
     <Compile Include="Keys\EQ_FeeKeys.cs" />
