@@ -50,7 +50,22 @@ namespace ElectricShop.Entity
 
 #region MyEntity
 
-public YdspLme YdspLme { get; set; }
+public Customer Customer { get; set; }
+public Image Image { get; set; }
+public ImportReceipt ImportReceipt { get; set; }
+public Manufacturer Manufacturer { get; set; }
+public OrderDetail OrderDetail { get; set; }
+public Permission Permission { get; set; }
+public Product Product { get; set; }
+public ProductType ProductType { get; set; }
+public Property Property { get; set; }
+public Provider Provider { get; set; }
+public Role  Role{ get; set; }
+public RolePermission  RolePermission{ get; set; }
+public UserInfo  UserInfo{ get; set; }
+public UserLogin  UserLogin{ get; set; }
+public UserRole  UserRole{ get; set; }
+   
 #endregion
 
     }
